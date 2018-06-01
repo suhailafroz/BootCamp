@@ -1,0 +1,27 @@
+h1 {
+    font-family:garamond;
+    color:white;
+    font-weight: bolder;
+    text-align: center;
+    margin-top:30px;
+    text-transform: uppercase;
+}
+
+.container {
+    display:grid;
+    border:1px solid grey;
+    grid-template-columns: auto;
+    margin:auto;
+    width:400px;
+    height:400px;
+    
+    background-image:url('../images/calc.png');
+}
+
+.display_box {
+    width:380px;
+    margin:10px;
+    height:10px;
+    border-radius:5px;
+    background-color: lightgrey;
+}

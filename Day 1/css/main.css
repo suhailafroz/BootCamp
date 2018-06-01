@@ -1,0 +1,54 @@
+body {
+    background-color:#4be09d;
+}
+h1 {
+    text-align: center;
+    color:rgb(240, 9, 9);
+}
+.container {
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-gap:10px;
+    margin:0px 50px;
+}
+.item {
+    height:30vh;
+    background-color:white;
+    border:1px solid white;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    width:20vw;
+    
+}
+.heading-style {
+    text-align:center;
+    font-family:"Kristen ITC";
+}
+.desc-style {
+    justify-content: space-evenly;
+    font-family:"Kristen ITC"; 
+    font-size: 10pt;
+    text-align:center;
+}
+.img-style {
+    text-align:center;
+}
+img {
+    height:12vh;
+}
+
+@media only screen and (max-width:300px) {
+    .container {
+        grid-template-columns:auto auto;        
+    }
+    .desc-style {
+     display:none;
+    }
+
+}
+
+@media only screen and (max-width:750px) {
+    .container {
+        grid-template-columns:auto auto auto;        
+    }
+}
